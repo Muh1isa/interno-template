@@ -1,0 +1,28 @@
+.section1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 450px;
+    padding: 0 50px;
+    &__title {
+        font-size: 26px;
+        font-weight: 400;
+        font-family: 'DM Serif Display', serif;
+        text-transform: capitalize;
+        text-align: center;
+        color: #292F36;
+    }
+    &__text {
+        font-size: 22px;
+        font-weight: 400;
+        font-family: 'Jost', sans-serif;
+        line-height: 30px;
+        text-align: center;
+        margin: 15px 0 50px 0;
+    }
+    a {
+        font-size: 18px;
+        font-weight: 600;
+        margin: 0 0 0 90px;
+    }
+}

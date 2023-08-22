@@ -1,0 +1,25 @@
+.section5 {
+    height: 400px;
+    background-color: #F4F0EC;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    &__wrapper {
+        width: 900px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__title {
+        font-size: 80px;
+        font-weight: 400;
+        font-family: 'DM Serif Display', serif;
+        text-align: center;
+        color: #CDA274;
+    }
+    &__text {
+        font-size: 20px;
+        font-weight: 400;
+        font-family: 'Jost', sans-serif;
+        color: #4D5053;
+    }
+}

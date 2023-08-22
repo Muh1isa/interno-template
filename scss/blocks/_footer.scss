@@ -1,0 +1,29 @@
+.footer {
+    height: 500px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 50px;
+    }
+    &__text {
+        font-size: 22px;
+        font-weight: 400;
+        font-family: 'Jost', sans-serif;
+        color: #4D5053;
+        margin: 8px 0 25px 0;
+    }
+    &__title {
+        font-size: 24px;
+        font-weight: 400;
+        font-family: 'DM Serif Display', serif;
+        color: #292F36;
+        margin: 5px 0 26px 0;
+    }
+    &__item {
+        font-size: 22px;
+        font-weight: 400;
+        font-family: 'Jost', sans-serif;
+        color: #4D5053;
+        margin: 0 0 26px 0;
+    }
+}
